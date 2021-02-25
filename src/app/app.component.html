@@ -1,3 +1,9 @@
+<span>{{title}} app is running </span>
 <app-navbar></app-navbar>
+<img [src]="imgURL"/>
+<button (click)="onClick($event)">OK</button>
+<input type="text" [(ngModel)]="name"/>
+<p>{{name}}</p>
+<app-pere></app-pere>
 <app-footer></app-footer>
 <router-outlet></router-outlet>
